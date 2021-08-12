@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Filter from "../components/Filter";
-import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import Filter from "../../components/Filter";
+import styles from "../../styles/Home.module.css";
 
-export default function Home({ events }) {
+export default function card({ events }) {
   console.log(events);
 
   return (
